@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>一号店</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+</head>
+
+<header>
+    <!--name the element by function_des_elementName-->
+    <!--gery bar -->
+    <div class="login_bar_div">
+       <div class="topBar_content_div">
+        <div class="login_register_div">
+            <span id="login_register_span">
+                Hi,请<a class="login_content_anchor">登录</a>&#47;<a class="login_content_anchor">注册</a></span>
+        </div>
+        <div class="top_nav_div">
+            <ul>
+                <li class="top_nav_content top_nav_bar" id="my_shop_li"><a class="top_nav_link" href="">我的1号店</a></li>
+                <!--<li class="top_nav_line top_nav_bar" ></li>-->
+                <li class="top_nav_content top_nav_bar " id="my_favourite_li"><a class="top_nav_link" href="">收藏夹</a></li>
+              <!--  <li class="top_nav_line top_nav_bar"></li>-->
+                <li  class="top_nav_content  top_nav_phone" id="palm_shop_li"><a class="top_nav_link" href="">掌上1号店</a></li>
+                <!--<li class="top_nav_line top_nav_bar"></li>-->
+                <li  class="top_nav_content top_nav_bar" id="customer_service_li" >
+                    <a class="top_nav_link" id="top_nav_customerService" href="javascript:" onmouseover="openDiv(event)" onmouseout="closeDiv(event)">客户服务</a>
+
+                </li>
+                <!--<li class="top_nav_line top_nav_bar"></li>-->
+                <li  class="top_nav_content top_nav_bar" id="web_nav_li"><a class="top_nav_link" href="">网站导航</a></li>
+                <!--<li class="top_nav_line top_nav_bar"></li>-->
+                <li  class="top_nav_content" id="contact_us_li"><a class="top_nav_link" href="">关于我们</a></li>
+               <!-- <li class="top_nav_line top_nav_bar"></li>-->
+            </ul>
+
+        </div>
+           <div id="customer_service_div" href="javascript:" onmouseover="openDiv(event)" onmouseout="closeDiv(event)">
+               <ul>
+                   <li id="customer_service_hover_li"><a class="customer_service_link" href="#">客户服务</a></li>
+                   <li><a class="customer_service_link customer_service_hoverContent_li" href="#">包裹跟踪</a></li>
+                   <li><a class="customer_service_link customer_service_hoverContent_li" href="#">常见问题</a></li>
+                   <li><a class="customer_service_link customer_service_hoverContent_li" href="#">在线投诉</a></li>
+                   <li><a class="customer_service_link customer_service_hoverContent_li" href="#">配送范围</a></li>
+               </ul>
+
+           </div>
+
+       </div>
+
+
+    </div>
+ <div id="searchEngine_nav_div">
+     <div id="search_engine_div">
+                 <lable id="search_engine_goods">商品</lable>
+                 <input type="text" placeholder="请输入关键字"/>
+                 <a id="search_engine_search" href="">搜索</a>
+     </div>
+     <div id="search_engine_list_div">
+         <ul>
+             <li>毛巾</li>
+             <li>卫生纸</li>
+             <li>电池</li>
+             <li>洗发露</li>
+             <li>衣服</li>
+             <li>鞋子</li>
+         </ul>
+     </div>
+
+ </div>
+
+</header>
+<!--main section: top navagation part starts-->
+<section id="product_nav_section">
+    <!--main content nav-->
+    <div class="product_topNa_div">
+        <ul class="product_topNav_ul">
+            <li id="all_product_category_li">
+                <a id="all_product_category_link" href="#">所有商品分类</a>
+                <div></div>
+            </li>
+            <li id="all_product_category_homepage" class="product_topNav_li"><a href="#">首页</a></li>
+            <li class="product_topNav_li"><a href="#">自营超市</a></li>
+            <li class="product_topNav_li"><a href="#">1号团</a></li>
+            <li class="product_topNav_li_lastFive"><a href="#">1号商城</a></li>
+            <li class="product_topNav_li_lastFive"><a href="#">闪购</a></li>
+            <li class="product_topNav_li_lastFive"><a href="#">活色生鲜</a></li>
+            <li class="product_topNav_li_lastFive"><a href="#">医药</a></li>
+            <li class="product_topNav_li_lastFive"><a href="#">1号钱包</a></li>
+        </ul>
+
+    </div>
+
+    <div class="section_background_div">
+        <div  class="section_content_div">
+            <ul class="section_vertical_ul">
+                <li id="nav_vertical_first_li">
+                    <a class="nav_verticle_first_link" href="">进口食品</a>,
+                    <a href="">生鲜</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_second_li">
+                    <a class="nav_verticle_first_link" href="">食品</a>,
+                    <a href="">饮料</a>,
+                    <a href="">酒</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_third_li">
+                    <a class="nav_verticle_first_link" href="">母婴</a>,
+                    <a href="">玩具</a>,
+                    <a href="">童装</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_forth_li">
+                    <a class="nav_verticle_first_link" href="">家居</a>,
+                    <a href="">家庭清洁</a>,
+                    <a href="">纸品</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_fifth_li">
+                    <a class="nav_verticle_first_link" href="">美妆</a>
+                    <a href="">个人护理</a>,
+                    <a href="">洗护</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_sixth_li">
+                    <a class="nav_verticle_first_link" href="">女装</a>,
+                    <a href="">内衣</a>,
+                    <a href="">中老年</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_seventh_li">
+                    <a class="nav_verticle_first_link" href="">鞋靴</a>,
+                    <a href="">箱包</a>,
+                    <a href="">腕表配饰</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_eighth_li">
+                    <a class="nav_verticle_first_link" href="">男装</a>,
+                    <a href="">户外</a>,
+                    <a href="">户外健身</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_ninth_li">
+                    <a class="nav_verticle_first_link" href="">手机</a>,
+                    <a href="">数码</a>,
+                    <a href="">电脑办公</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_tenth_li">
+                    <a class="nav_verticle_first_link" href="">小家电</a>,
+                    <a href="">大家电</a>,
+                    <a href="">汽车</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_eleventh_li">
+                    <a class="nav_verticle_first_link" href="">保健滋补</a>,
+                    <a href="">医药</a>,
+                    <a href="">成人</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+                <li id="nav_vertical_twelveth_li">
+                    <a class="nav_verticle_first_link" href="">礼品</a>,
+                    <a href="">卡</a>,
+                    <a href="">旅游</a>,
+                    <a href="">充值</a>
+                    <div class="nav_background_arrow"></div>
+                </li>
+            </ul>
+            <div class="background_image_div">
+                <!--square below the slide show -->
+                <a href="">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </a>
+
+            </div>
+            <!--right side bar of the main nav-->
+            <div class="right_mainNav_div">
+                <!--add membership and giftcard option-->
+                <div class="membership_giftcard_div">
+                    <ul>
+                        <li class="membership_giftcard_li" id="free_trail_li"><a href="">0元试用</a></li>
+                        <li class="membership_giftcard_li" id="membership_club_li"><a href="">会员俱乐部</a></li>
+                        <li class="membership_giftcard_li" id="gift_card_li"><a href="">礼品卡</a></li>
+                    </ul>
+                </div>
+                <div class="community_link_div">
+                   <!-- <div>-->
+                        <ul>
+                            <li id="valentine_gift_li"><a class="community_link_link" href="">&#91;社区&#93;&nbsp;当红明星教你送七夕情人礼!</a></li>
+                            <li id="global_pad_li"><a class="community_link_link" href="">&#91;社区&#93;&nbsp;全球口碑姨妈巾都在这了！</a></li>
+                            <li id="v3_membership_li"><a class="community_link_link" href="">&#91;促销&#93;&nbsp;V3会员 甜蜜 免费领</a></li>
+                        </ul>
+                   <!-- </div>-->
+
+                </div>
+                <div class="phone_billing_div">
+                    <ul>
+                        <li id="phone_bill_li"><a id="phone_billing_link" href="">话费快充</a></li>
+                        <li id="lottory_buy_li"><a href="">彩票</a></li>
+                        <li id="web_point_li"><a href="">网友卡点</a></li>
+                    </ul>
+                    <div class="click_show_div" id="billing_topup_div">
+                        <table>
+                            <tr>
+                                <td class="label_info_td">手机号码 :&nbsp;</td>
+                                <td><input type="text" id="phone_num_input"/></td>
+                            </tr>
+                            <tr>
+                                <td class="label_info_td">面值 :&nbsp;</td>
+                                <td>
+                                    <select name="" id="money_amount_select" onchange="payOption()">
+                                        <option value="&#165;10.14" selected>&#165;10</option>
+                                        <option value="&#165;20.0">&#165;20</option>
+                                        <option value="&#165;49.0">&#165;50</option>
+                                        <option value="&#165;98.0">&#165;100</option>
+                                        <option value="&#165;198">&#165;200</option>
+                                        <option value="&#165;495">&#165;500</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="label_info_td">售价 :&nbsp;</td>
+                                <td><p id="sale_price_para">&#165;10.14</p></td>
+                            </tr>
+                        </table>
+                        <input type="submit" value="立即充值" id="topup_amount_input"/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="main_product_section">
+    <!--nav bar for food and beverage-->
+    <div class="food_topnav_div">
+       <span>
+           <a href="">食品饮料</a>
+       </span>
+           <ul>
+               <li><a href="">咖啡</a></li>
+               <li class="straight_line_li">|</li>
+               <li><a href="">休闲零食</a></li>
+               <li  class="straight_line_li">|</li>
+               <li><a href="">饼干糕点</a></li>
+               <li  class="straight_line_li">|</li>
+               <li><a href="">啤酒</a></li>
+               <li class="straight_line_li">|</li>
+               <li><a href="">粮油米面</a></li>
+           </ul>
+    </div>
+    <!--add main content of food and beverage-->
+    <div class="food_beverage_div" id="product_main_content_div">
+        <div class="line1_column1_div">
+            <div class="column1_linle1_div">
+                <ul>
+                    <li><a class="column1_line1_link" href="">饼干糕点</a></li>
+                    <li><a class="column1_line1_link" href="">休闲零食</a></li>
+                    <li><a class="column1_line1_link" href="">饮料果汁</a></li>
+                    <li><a class="column1_line1_link" href="">牛奶乳品</a></li>
+                    <li><a class="column1_line1_link" href="">冲饮谷物</a></li>
+                    <li><a class="column1_line1_link" href="">营养保健</a></li>
+                </ul>
+            </div>
+            <div class="column1_line2_div" id="column1_line2_tea">
+                <a href="">
+                    <h4>banner</h4>
+                    <p>banner</p>
+                </a>
+            </div>
+        </div>
+        <div class="line1_column2_div" >
+            <a href="">
+
+            </a>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="line1_column3_div">
+            <div class="column3_line1_div">
+                <a href="">
+                    <h4>吃货天堂</h4>
+                    <p>满49减10</p>
+                </a>
+            </div>
+            <div class="column3_line2_div">
+                <a href="">
+                    <h4>1号酒窖</h4>
+                    <p>百威哈啤酒两件7折</p>
+                </a>
+            </div>
+        </div>
+        <div class="line1_column4_div">
+            <a href="">
+                <h4>夏季美食嘉年华</h4>
+                <p>粮油1元抢；爆款5折起</p>
+            </a>
+        </div>
+        <div class="line1_column5_div">
+            <div class="column5_line1_div">
+                <a href="">
+                    <h4>饮料饮品</h4>
+                    <p>爆款满99减25</p>
+                </a>
+            </div>
+            <div class="column5_line2_div">
+                <a href="">
+                    <h4>甜蜜蜜七夕好礼</h4>
+                    <p>燕窝 买一送一</p>
+                </a>
+            </div>
+        </div>
+        <div class="clear_float_div"></div>
+    </div>
+    <!--kitchen utility top nav-->
+    <div class="food_topnav_div">
+        <span>
+           <a id="kitchen_utilities_link" href="">个户厨卫</a>
+        </span>
+        <ul>
+            <li><a href="">面部防晒</a></li>
+            <li class="straight_line_li">|</li>
+            <li><a href="">沐浴清洁</a></li>
+            <li  class="straight_line_li">|</li>
+            <li><a href="">纸巾</a></li>
+            <li  class="straight_line_li">|</li>
+            <li><a href="">洗衣机</a></li>
+            <li class="straight_line_li">|</li>
+            <li><a href="">驱蚊神器</a></li>
+        </ul>
+    </div>
+    <!-- kitchen utility div-->
+    <div class="food_beverage_div" id="kitchen_utility_topDiv">
+        <div class="line2_column1_div">
+            <div class="column1_line12_div">
+                <div class="kitchen_column1_line1_div">
+                    <ul>
+                        <li  class="odd_link"><a class="column1_line1_link " href="">洗发护发</a></li>
+                        <li><a class="column1_line1_link " href="">脱毛膏/贴</a></li>
+                        <li class="odd_link"><a class="column1_line1_link" href="">牙膏牙刷</a></li>
+                        <li><a class="column1_line1_link" href="">抽纸</a></li>
+                        <li class="odd_link"><a class="column1_line1_link" href="">消毒液</a></li>
+                        <li><a class="column1_line1_link" href="">保鲜膜</a></li>
+                    </ul>
+                </div>
+                <div class="column1_line2_div" id="column1_line2_kitchen">
+                    <a href="">
+                        <h4 id="column1_line2_h4">蓝月亮洁净盛典</h4>
+                        <p>热销商品5折起</p>
+                    </a>
+                </div>
+            </div>
+            <div id="column1_line1_div" class="column1_line2_div">
+                <a href="">
+                    <h4 id="column1_line1_h4">妮飘满99减25</h4>
+                    <p>与你的浪漫七夕</p>
+                </a>
+            </div>
+        </div>
+        <div class="line1_column2_div" id="kitchen_line1_column2_div" >
+            <a id="line1_column2_link" href="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </a>
+
+            <div id="column2_line1_div">
+                <a href="">
+                    <h4>逼格生活由我打造</h4>
+                    <p>新品上市</p>
+                    <h4>品质生活轻松家务</h4>
+                </a>
+
+            </div>
+        </div>
+        <div class="line1_column3_div" id="kitchen_line1_column3_div">
+            <div class="column3_line1_div">
+                <a id="kitchen_line1_column3_link" href="">
+                    <h4>自营纸制品品牌团</h4>
+                    <p>团购疯抢中</p>
+                </a>
+            </div>
+            <div  class="column3_line2_div">
+                <a id="kitchen_line1_column3_link2" href="">
+                    <h4>自营义务洗护团</h4>
+                    <p>爆款5折起</p>
+                </a>
+            </div>
+            <div id="column3_line1_div">
+                <a href="">
+                    <h4>自营家庭清洁品牌团</h4>
+                    <p>爆款团购2.3折起</p>
+                </a>
+
+            </div>
+        </div>
+        <div class="line1_column4_div">
+            <a  id="kitchen_line1_column4_link" href="">
+                <h4>夏季美食嘉年华</h4>
+                <p>粮油1元抢；爆款5折起</p>
+            </a>
+            <div id="kitchen_column4_line3_div">
+                <a href="">
+                    <h4>自营女性护理</h4>
+                    <p>更多商品第二件2折</p>
+                </a>
+
+            </div>
+        </div>
+        <div class="line1_column5_div" id="kitchen_line1_column5_div">
+            <div class="column5_line1_div">
+                <a id="kitchen_line1_column5_link" href="">
+                    <h4>自营口腔护理</h4>
+                    <p>更多商品第二件2折</p>
+                </a>
+            </div>
+            <div class="column5_line2_div" id="kitchen_column5_line2_div">
+                <a id="kitchen_line1_column5_link2" href="">
+                    <h4>自营洗发护发</h4>
+                    <p>更多商品第二件2折</p>
+                </a>
+            </div>
+        </div>
+        <div class="clear_float_div"></div>
+    </div>
+
+</section>
+<footer>
+    <ul class="footer_ul1">
+        <li><a href="">关于1号店</a></li>
+        <li>|</li>
+        <li><a href="">我们的团队</a></li>
+        <li>|</li>
+        <li><a href="">网站联盟</a></li>
+        <li>|</li>
+        <li><a href="">热门搜索</a></li>
+        <li>|</li>
+        <li><a href="">友情链接</a></li>
+        <li>|</li>
+        <li><a href="">1号店社区</a></li>
+        <li>|</li>
+        <li><a href="">诚征英才</a></li>
+        <li>|</li>
+        <li><a href="">商家登陆</a></li>
+        <li>|</li>
+        <li><a href="">供应商登陆</a></li>
+        <li>|</li>
+        <li><a href="">放心搜</a></li>
+        <li>|</li>
+        <li><a href="">1号店新品</a></li>
+        <li>|</li>
+        <li><a href="">开放平台</a></li>
+    </ul>
+    <ul class="footer_ul2">
+        <li><a href="">沪ICP备13044278号</a></li>
+        <li>|</li>
+        <li><a href="">合字B1.B2-20130004</a></li>
+        <li>|</li>
+        <li><a href="">营业执照</a></li>
+        <li>|</li>
+        <li><a href="">互联网药品信息资格证</a></li>
+        <li>|</li>
+        <li><a href="">互联网药品交易服务资格证</a></li>
+    </ul>
+    <p>copyright&copy; 1号店网上超市2007-2015,All Rights Reserved</p>
+</footer>
+
+<script>
+    var service = document.getElementById("customer_service_div");
+   function openDiv()
+    {
+        service.style.display = "block";
+    }
+    function closeDiv()
+    {
+        service.style.display = "none";
+    }
+    function payOption()
+    {
+        var x=document.getElementById("money_amount_select").value;
+        document.getElementById("sale_price_para").innerHTML =  x;
+    }
+</script>
+</body>
+</html>
